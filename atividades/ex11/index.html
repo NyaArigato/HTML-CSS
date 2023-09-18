@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens adptativas</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir no seu celular ou diminua a janela</p>
+    <p>obs: não pode colocar espaço na hora de salvar, sempre usar o traço -</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-Pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-media.png" type="image/png">
+        <img src="imagens/foto-grande.png" alt="imagens-grande">
+    </picture>
+    <h2>testes</h2>
+    <p>irei fazer um <a href="">teste</a> de <b>apredizagem.</b></p>
+
+    <h1>utilizando audios com html</h1> <!---->
+    <p>metodo mais facil para utilizar audio</p>
+    <audio src="midia/leat'eq-Tokyo-Nya-Arigatõ-2.m4a" controls autoplay loop></audio>
+    <p>metodo mais complexo</p>
+    <audio controls loop>
+        <source src="midia/leat'eq-Tokyo-Nya-Arigatõ-2.m4a" type="audio/mpeg">
+        <p>midia para MP3</p>
+        <source src="midia/leat'eq-Tokyo-Nya-Arigatõ-2.m4a" type="audio/ogg">
+        <p>midia de ogg</p>
+        <source src="midia/leat'eq-Tokyo-Nya-Arigatõ-2.m4a" type="audio/wav">
+        <p>midia de wav</p>
+    </audio>
+
+    
+</body>
+</html>

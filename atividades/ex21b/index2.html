@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caixas</title>
+    <style>
+        body{
+            background-color: black;
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 2px;
+        }
+        header{
+            background-color: rgb(141, 4, 4);
+            padding: 2px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(0, 0, 0);
+            padding: 3px;
+            box-shadow: inset 6px -5px 7px 1px #ef000067;
+        }
+        nav > a {
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+        }
+        nav > a::hover {
+            text-decoration: underline;
+        }
+        main{
+            background-color: rgb(141, 4, 4);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px  5px;
+        }
+        article{
+            background-color: rgb(0, 0, 0);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px  7px;
+            box-shadow: inset 6px -5px 7px 1px #ef000067;
+        }
+        article > aside{
+            background-color: rgb(97, 3, 3);
+        }
+        footer{
+            background-color: rgb(141, 4, 4);
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <p>Meu Site</p>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assusntos">
+            <h2>esportes e tecnologia</h2>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias sobre o Brasil no esporte</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde accusantium velit accusamus in adipisci, similique minus voluptatibus cumque ea nam, cum deleniti tempore minima sunt, aliquam iure autem voluptatum neque.</p>
+                <aside>
+                    <p>artigo escrito por Wilker Gabriel</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por Wilker</p>
+    </footer>
+    
+</body>
+</html>

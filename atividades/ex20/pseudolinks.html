@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: rgb(19, 191, 197);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(15, 148, 153);
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: black;
+        }
+
+        a::after{
+            content: ' ♫';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(141, 141, 141);
+        }
+        .especial{
+            background-color: rgb(51, 48, 48);
+        }
+        .especial::before{
+            content: '★';
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links </h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=Qc7_zRjH808" target="_blank" class="especial">cupid</a></li>
+        <li><a href="https://www.youtube.com/watch?v=EJpcrZaX10Y" target="_blank">musica do rio</a></li>
+        <li><a href="https://www.youtube.com/watch?v=BPbCLtBl_g4" target="_blank">anjos-rappa</a></li>
+    </ul>
+    <p># = id</p>
+    <p>. = class</p>
+    <p>: = pseudo-class</p>
+    <p>:: = pseudo-element</p>
+    <p> > = clildren</p>
+</body>
+</html>
